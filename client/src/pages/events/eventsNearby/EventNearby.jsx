@@ -41,12 +41,12 @@ export const EventNearby = () => {
           <hr />
           <div className="recommend-event">
             <h5>{eventName}</h5>
-            <p className="content-with-icons">
+            <div className="content-with-icons">
               <p>
                 {time} {moment(date).format(format)}{" "}
               </p>
               <TbCalendarTime />
-            </p>
+            </div>
             <p className="content-with-icons">
               {address} <IoLocationSharp />
             </p>
