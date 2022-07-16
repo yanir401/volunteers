@@ -1,7 +1,7 @@
 import validator from "validator";
 
 export const isValid = (state, setRenderErrorsMessage, errors, setErrors) => {
-  Object.keys(state).map((key) => {
+  Object.keys(state).forEach((key) => {
     switch (key) {
       case "name":
         if (!state[key].value.trim().match(/^[א-ת]+$/))
