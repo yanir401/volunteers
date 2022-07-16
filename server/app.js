@@ -9,7 +9,6 @@ import { userRouter } from "./routes/users.route.js";
 const app = express();
 
 // app.use(express.static(publicPath));
-app.use(bodyParser.json());
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const publicPath = path.join(__dirname, "../client/build");
