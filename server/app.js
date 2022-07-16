@@ -11,6 +11,7 @@ import { userRouter } from "./routes/users.route.js";
 const app = express();
 
 // app.use(express.static(publicPath));
+var router = express.Router();
 
 app.use(express.json());
 app.use(
@@ -20,6 +21,9 @@ app.use(
 );
 app.use(express.json());
 app.use(cors());
+router.get("/", function (req, res, next) {
+  res.status(200).send("Hi, It works!");
+});
 app.use("/users", userRouter);
 app.use("/events", eventRouter);
 
