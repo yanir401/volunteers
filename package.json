@@ -18,7 +18,10 @@
     "start": "node index.js",
     "client": "npm start --prefix client",
     "server": "nodemon index.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-client": "cd client && npm install --legacy-peer-deps && npm run build && cd ..",
+    "install-server": "npm install",
+    "heroku-postbuild": "npm run install-client && npm run install-server"
   },
   "repository": {
     "type": "git",
