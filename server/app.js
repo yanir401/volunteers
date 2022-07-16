@@ -18,6 +18,8 @@ console.log("directory-name 👉️", __dirname);
 
 const publicPath = path.join(__dirname, "../client/build");
 
+const app = express();
+
 app.use(express.static(publicPath));
 
 app.use(express.json());
@@ -26,8 +28,6 @@ app.use(
     extended: true,
   })
 );
-const app = express();
-
 app.use(express.json());
 app.use(cors());
 app.use("/users", userRouter);
