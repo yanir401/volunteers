@@ -9,9 +9,10 @@ import { userRouter } from "./routes/users.route.js";
 const app = express();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+// const publicPath = path.join(__dirname, "../client/build");
 app.use("*", express.static(path.join(__dirname, "client", "build")));
 
-app.use(express.static(publicPath));
+// app.use(express.static(publicPath));
 app.use(express.json());
 app.use(
   express.urlencoded({
