@@ -3,6 +3,7 @@ import axios from "axios";
 import Form from "../../components/form/Form";
 import { useAuth } from "../../context/auth-context";
 import { useNavigate } from "react-router-dom";
+import volunteerApi from "../../apis/volunteerApi";
 
 const initialForm = {
   email: {
@@ -54,8 +55,6 @@ const Login = () => {
     return renderInputs(state);
   };
 
-  const URL = "http://127.0.0.1:5000/users/login";
-
   const onSubmit = async (event) => {
     event.preventDefault();
 
@@ -65,9 +64,9 @@ const Login = () => {
     });
 
     try {
-      const res = await axios({
+      const res = await volunteerApi({
         method: "POST",
-        url: URL,
+        url: "/users/login",
         data,
       });
       if (res) {

@@ -27,7 +27,7 @@ export const sendEmail = async (event, user) => {
     <p>${event.dateString}</p>
     <p>${event.time}</p>
   
-    <a style="cursor:pointer" href=http://localhost:3000/event/${event._id}><button style="color:#fff;background:#1b2430; border-radius:6px; padding:0.5rem;font-size:1.25rem">פרטים נוספים</button></a>
+    <a style="cursor:pointer" href=https://statuesque-speculoos-8e5333.netlify.app/event/${event._id}><button style="color:#fff;background:#1b2430; border-radius:6px; padding:0.5rem;font-size:1.25rem">פרטים נוספים</button></a>
   
     `,
     // html: `<div style="text-align:center> <p>${event.eventName}</p>

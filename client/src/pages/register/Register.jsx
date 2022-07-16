@@ -8,6 +8,7 @@ import { isValid } from "../../utils/formValidation";
 import { useAuth } from "../../context/auth-context";
 
 import ChooseVolunteerLocation from "../../components/chooseLocation/ChooseVolunteerLocation";
+import volunteerApi from "../../apis/volunteerApi";
 const initialForm = {
   name: {
     label: "Username",
@@ -161,9 +162,9 @@ const Register = () => {
 
     if (isValid(state, setRenderErrorsMessage, errors, setErrors))
       try {
-        const res = await axios({
+        const res = await volunteerApi({
           method: "POST",
-          url: URL,
+          url: "/users/register",
           data,
         });
         if (res) {
