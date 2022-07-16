@@ -1,0 +1,156 @@
+.container-flex-flex-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container-flex-flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+.gap-3 {
+  gap: 3rem;
+}
+
+.text-primary {
+  color: #1b2430;
+}
+
+.text-secondary {
+  color: #51557e;
+}
+.text-lightGreen {
+  color: #d6d5a8;
+}
+
+.text-purple {
+  color: #816797;
+}
+
+.text-bold-size-1-6 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.text-bold-size-1-8 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.text-bold-size-2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.text-bold-size-2-2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-counter {
+  padding: 0.85rem 2rem;
+}
+
+.btn-primary {
+  background-color: #1b2430;
+  color: #fff;
+  transition: all 0.3s;
+}
+.btn-primary:hover {
+  background-color: #bbbdc1;
+  color: #fff;
+}
+
+.btn-lightPrimary {
+  background-color: #bbbdc1;
+  color: #fff;
+  transition: all 0.3s;
+}
+.btn-lightPrimary:hover {
+  background-color: #1b2430;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #51557e;
+  color: #fff;
+  transition: all 0.3s;
+}
+.btn-secondary:hover {
+  background-color: #414465;
+  color: #fff;
+}
+
+.btn-lightGreen {
+  background-color: #d6d5a8;
+  color: #1b2430;
+  transition: all 0.3s;
+}
+.btn-lightGreen:hover {
+  background-color: #a1a084;
+}
+
+.btn-purple {
+  background-color: #816797;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.block {
+  display: block;
+}
+
+.mg-b-1 {
+  margin-bottom: 1rem;
+}
+.mg-b-2 {
+  margin-bottom: 2rem;
+}
+.mg-b-3 {
+  margin-bottom: 3rem;
+}
+
+.mg-tb-1 {
+  margin: 1rem 0;
+}
+.mg-tb-2 {
+  margin: 2rem 0;
+}
+.mg-tb-3 {
+  margin: 3rem 0;
+}
+
+.pad-rl-2 {
+  padding: 0 2rem;
+}
+.pad-rl-3 {
+  padding: 0 3rem;
+}
+.pad-rl-4 {
+  padding: 0 4rem;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: 500;
+}

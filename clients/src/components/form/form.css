@@ -1,0 +1,24 @@
+.form-page-background {
+  background-color: #1b2430;
+}
+
+.form-container {
+  height: 100%;
+}
+
+.form-container form h2 {
+  margin: 2rem 0;
+}
+
+.form-container form {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: rgba(255, 255, 255, 0.729) 0px 2px 5px;
+
+  text-align: center;
+  min-height: 55%;
+  min-width: 22%;
+  margin: 0 auto;
+  padding: 2rem;
+  gap: 1rem;
+}

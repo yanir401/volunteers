@@ -71,7 +71,6 @@ export const getNearByEvents = async (req, res) => {
     event.forEach((event) => {
       let flag = true;
       for (const volunteer of event.volunteers) {
-        console.log(event.eventName, volunteer.equals(req.user._id));
         if (volunteer.equals(req.user._id)) {
           flag = false;
           break;

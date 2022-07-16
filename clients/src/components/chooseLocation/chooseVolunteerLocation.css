@@ -1,0 +1,38 @@
+.location-checkboxes-container {
+  margin: 0 auto;
+
+  font-size: 2rem;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: rgba(255, 255, 255, 0.729) 0px 2px 5px;
+  text-align: center;
+  min-height: 55%;
+  min-width: 22%;
+  margin: 0 auto;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.location-checkboxes-container h3 {
+  margin-bottom: 4rem;
+}
+.location-checkboxes-container input {
+  min-width: 10%;
+  padding: 5rem;
+}
+
+.location-checkboxes-container .selected-row {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0;
+  gap: 2rem;
+}
+
+.location-checkboxes-container button {
+  margin: 3rem 0;
+}
+
+.location-checkboxes-container .go-back {
+  cursor: pointer;
+  font-size: 1.8rem;
+}

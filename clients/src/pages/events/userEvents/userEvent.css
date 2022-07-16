@@ -1,0 +1,54 @@
+.user-events-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.table-wrapper {
+  min-width: 70%;
+  max-width: 95%;
+  margin-top: 2.5rem;
+}
+tr:nth-child(even) {
+  background-color: #fff;
+}
+tr:nth-child(odd) {
+  background-color: #e2e2c2;
+}
+
+.leave-btn {
+}
+.title-row {
+  background: #1b2430 !important;
+  color: #fff;
+}
+table span {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.event-content {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #1b2430;
+}
+
+/* .user-events-container .user-event {
+  background-color: #51557e;
+  max-width: 60%;
+  padding: 2rem;
+}
+.user-events-container .user-event p {
+  font-weight: 500;
+}
+.user-events-container .user-event p span {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.title-row {
+  background: #d6d5a8;
+  color: #fff;
+} */

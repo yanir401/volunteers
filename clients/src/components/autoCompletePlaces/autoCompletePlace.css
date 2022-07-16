@@ -1,0 +1,31 @@
+/* .auto-complete-suggestions-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.auto-complete-suggestions {
+  font-size: 1.5rem;
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.auto-complete-suggestions-item {
+  padding-bottom: 0.25rem;
+} */
+
+.suggestions-li {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 5px 0px;
+  cursor: pointer;
+  border: 1px solid #d0c9c0;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1.4rem;
+  padding: 0.35rem;
+  margin: 0.5rem 0;
+  transition: all 0.3s;
+}
+.suggestions-li:hover {
+  background-color: #1b2430;
+  color: #fff;
+}
