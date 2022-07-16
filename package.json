@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "start": "node index.js",
+        "start": "node ./server/index.js",
         "client": "npm start --prefix client",
         "backend": "cd server &&  nodemon index.js",
         "dev": "concurrently \"npm run backend\" \"npm run client\""
