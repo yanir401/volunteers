@@ -32,5 +32,7 @@ app.use(express.json());
 app.use(cors());
 app.use("/users", userRouter);
 app.use("/events", eventRouter);
-
+app.get("*", (req, res) => {
+  res.sendFile(path.join(publicPath, "index.html"));
+});
 export { app };
